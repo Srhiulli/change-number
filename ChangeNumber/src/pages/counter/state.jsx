@@ -1,6 +1,11 @@
 
 import { useState } from 'react';
 
+const Container = ({ setCounter }) => (
+  <div>
+    <AddOneButton setCounter={setCounter} />
+  </div>
+)
 
 
 const AddOneButton = ({ setCounter }) => (
@@ -34,7 +39,7 @@ export default function CounterUseContext() {
       <Name name={name} />
       <AddName name={name} setName={setName} />
       <Counter counter={counter} />
-      <AddOneButton setCounter={setCounter} />
+      <Container setCounter={setCounter} />
     </div>
   )
 }
