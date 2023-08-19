@@ -1,5 +1,4 @@
-import Counter from "./pages/counter/context"
-// import Counter from "./page  s/counter/state"
+import Counter from "./pages/counter/reduce"
 
 import './App.css'
 
