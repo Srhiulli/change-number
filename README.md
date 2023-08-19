@@ -96,12 +96,12 @@ export default CounterUsingReducer;
 ```
 
 ## Executando o Projeto
+
 Para executar qualquer uma das abordagens, siga os passos a seguir:
 
--Clone este repositório.
--Navegue para a pasta da abordagem desejada.
--Execute npm install para instalar as dependências.
--Execute npm start para iniciar a aplicação.
--Escolha a abordagem que melhor se adapta às suas necessidades e explore como cada uma delas lida com o gerenciamento de estado em uma aplicação React.
+1. Clone este repositório.
+2. Navegue para a pasta da abordagem desejada.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `npm start` para iniciar a aplicação.
 
-
+Escolha a abordagem que melhor se adapta às suas necessidades e explore como cada uma delas lida com o gerenciamento de estado em uma aplicação React.
